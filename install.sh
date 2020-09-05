@@ -46,11 +46,11 @@ yum install epel-release -y
 
 rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
 
-################################
+####################################
 # Install PHP 5.6 ,NGINX and MySQL #
-################################
+####################################
 
-yum -y install mysql-server httpd  php56w php56w-mysql php56w-gd php56w-opcache nano exim syslog-ng cronie
+yum -y install httpd mysql-server php56w php56w-mysql php56w-gd php56w-opcache nano exim syslog-ng cronie
 
 
 ########################
