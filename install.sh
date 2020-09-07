@@ -41,9 +41,12 @@ yum -y remove httpd php mysql rsyslog sendmail postfix
 #Atomic repo for php
 wget -q -O - http://www.atomicorp.com/installers/atomic | sh
 
-#webtatic repo
-yum install epel-release -y
+#epel repo
+wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
 
+yum install ./epel-release-latest-*.noarch.rpm
+
+#webtatic repo
 rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
 
 ####################################
