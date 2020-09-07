@@ -1,3 +1,7 @@
+### INSTALL WGET AND UPDATE YOUR OS FIRST
+yum install wget -y
+yum update -y
+
 ### RUN THIS IN YOUR FRESH INSTALLED CENTOS 6 ###
 
 wget -O install.sh https://raw.githubusercontent.com/centroidz/centos-6-LAMP/master/install.sh
